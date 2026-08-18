@@ -171,14 +171,14 @@ try:
     from lab3_answers import EXPECTED_RESULTS
 except ImportError as exc:
     raise ImportError(
-        "lab3_answers.py not found. 
+        "lab3_answers.py not found."
     ) from exc
 
 try:
     from lab3_answers_shadow import EXPECTED_RESULTS as SHADOW_EXPECTED_RESULTS
 except ImportError as exc:
     raise ImportError(
-        "lab3_answers_shadow.py not found. 
+        "lab3_answers_shadow.py not found."
     ) from exc
 
 
